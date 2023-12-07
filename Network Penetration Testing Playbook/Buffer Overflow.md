@@ -1,0 +1,3 @@
+A buffer is a place where data is stored. Buffers have a fixed size. A program must be very careful to not put more data into the buffer than its size allows, or else the buffer will "overflow" and damage the data in surrounding memory. It would be like if your toilet overflowed and water spilled onto your floor, damaging your flooring and drywall.
+
+If a malicious hacker has control over the data that is put into a buffer, sometimes they can control what data overflows out of the buffer as well. This allows them to replace other data in memory, with the data they chose. This can change the behavior of the program, allowing the hacker to manipulate it to his/her will.

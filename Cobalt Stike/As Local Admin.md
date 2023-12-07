@@ -1,0 +1,4 @@
+Mimikatz
+````
+logonpasswords
+````
